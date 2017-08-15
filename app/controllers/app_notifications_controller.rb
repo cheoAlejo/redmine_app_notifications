@@ -1,5 +1,7 @@
 class AppNotificationsController < ApplicationController
   unloadable
+  helper :custom_fields
+  helper :issues
   # helper :app_notifications
   # include AppNotificationsHelper
 
